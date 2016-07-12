@@ -1,0 +1,25 @@
+{
+  "name": "sms-4-taxi",
+  "version": "1.0.0",
+  "description": "cwiczenia z SASS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Lukasz Pawlowicz",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp-jshint": "^2.0.1",
+    "gulp-sass": "^2.3.2",
+    "gulp-sourcemaps": "^1.6.0",
+    "jshint": "^2.9.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lukasz-pawlowicz/WAR_FRO_S_08_EXAM_SASS_RWD.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lukasz-pawlowicz/WAR_FRO_S_08_EXAM_SASS_RWD/issues"
+  },
+  "homepage": "https://github.com/lukasz-pawlowicz/WAR_FRO_S_08_EXAM_SASS_RWD#readme"
+}

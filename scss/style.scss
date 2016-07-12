@@ -1,0 +1,120 @@
+@import "modules/_all";
+@import "partials/all";
+@import 'https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&subset=latin-ext';
+
+
+body{
+	margin: 0 auto;
+	width: 100%;
+	font-family: 'Lato', sans-serif;
+	font-size: 1em; //16px
+	.grid-container {
+        width : 100%;
+        max-width : 1200px; 
+        margin: 0 auto;
+	   /*CLEARFIX - WSZYSTKO W KONTENERZE*/ 
+	    .row:before, 
+	    .row:after {
+	        content:"";
+	        display: table ;
+	         clear:both;
+	    }
+    }
+
+    [class*='col-'] {
+        float: left;
+        min-height: 1px; 
+        width: 8.33%;
+        /*gutter*/
+        padding: 6px;
+    }
+
+    .col-1{
+        width: 8.333%; 
+    }
+    .col-2{
+        width: 16.666%; 
+    }
+    .col-3{
+        width: 24.999%; 
+    }
+    .col-4{
+        width: 33.333%;
+    }
+    .col-5{
+        width: 41.666%;
+    }
+    .col-6{
+        width: 49.999%;
+    }
+    .col-7{
+        width: 58.333%;
+    }
+    .col-8{
+        width: 66.666%;
+    }
+    .col-9{
+        width: 74.999%;
+    }
+    .col-10{
+        width: 83.333%;
+    }
+    .col-11{
+        width: 91.666%;
+    }
+    .col-12{
+        width: 100%;
+    }
+
+	//BORDER BOX FOR EVERYTHING
+    .grid-container *{
+        box-sizing: border-box; 
+    }
+
+    .outline, .outline *{
+        outline: 1px solid #F6A1A1; 
+    }
+
+ }
+
+    
+
+//MEDIA QUERIES
+@media all and (max-width:650px){
+    .col-1{ width: 50%;        }
+    .col-2{ width: 100%;    }
+    .col-3{ width: 100%;    }
+    .col-4{ width: 100%;    }
+    .col-5{ width: 100%;    }
+    .col-6{ width: 100%;    }
+    .col-7{ width: 100%;    }
+    .col-8{ width: 100%;    }
+    .col-9{ width: 100%;    }
+    .col-10{ width: 100%;    }
+    .col-11{ width: 100%;    }
+    .col-12{ width: 100%;    }
+}
+@media (max-width: 640px) {
+	header {
+		#container {
+			nav.mobile {
+    			display: block;
+			}
+		  	.main-nav {
+		    	display: none;
+			}
+ 		}
+
+	}
+}
+ @media all and (max-width:1200px){
+    .main-nav {
+    	padding-right: 10px;
+		li {
+			padding-left: 20px;
+		}
+    }
+    #logo {
+    	padding-left: 10px;
+    }
+}

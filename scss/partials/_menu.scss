@@ -1,0 +1,79 @@
+header {
+	width: 100%;
+	background-color: black;
+	#container {
+		min-height: 50px;
+		background-color: $background-color;
+		max-width: 1200px;
+		margin: 0 auto;
+		#logo {
+			float: left;
+			color: $header-text-color;
+			margin-top: -15px;
+		}
+		ul.main-nav {
+			float: right;
+			color: white;
+			li {
+				display: inline-block;
+				color: #ffffff;
+			    font-size: 0.75em;
+			    display: inline-block;
+			    padding-left: 45px;
+			}
+			a {
+				text-decoration: none;
+				color: $header-text-color;
+			}
+		}
+		.mobile {
+			display: none;
+			position: fixed;
+			width: 100%;
+			top: 0;
+			div {
+				display: none;
+			}
+			button {
+				position: absolute;
+			    top: 15px;
+			    right: 15px;
+			    border: 0;
+			    text-indent: 200%;
+			    overflow: hidden;
+			    background: rgba(255,255,255,.8) url(http://i.imgur.com/vKRaKDX.png) center no-repeat;
+			    border: 1px solid #ddd;
+			    border-radius: 3px;
+			    background-size: 80%;
+			    width: 30px;
+			    height: 30px;
+			    outline: none;
+			    transition: all 400ms ease;
+			    &.expanded {
+			      transform: rotate(90deg);
+			      background-color: transparent;
+			      border: 0;
+			  	}
+			}
+			a {
+			  	  	display: block;
+				  	text-align: center;
+				  	padding: 20px 0;
+				  	border-bottom: 1px solid #ddd;
+				  	text-decoration: none;
+				  	color: #222;
+				  	font-weight: bold;
+				  	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,c6c5be+100,7db9e8+100 */
+					background: #ffffff; /* Old browsers */
+					background: -moz-linear-gradient(left,  #ffffff 0%, #c6c5be 100%, #7db9e8 100%); /* FF3.6-15 */
+					background: -webkit-linear-gradient(left,  #ffffff 0%,#c6c5be 100%,#7db9e8 100%); /* Chrome10-25,Safari5.1-6 */
+					background: linear-gradient(to right,  #ffffff 0%,#c6c5be 100%,#7db9e8 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+					filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#7db9e8',GradientType=1 ); /* IE6-9 */
+
+				  	&:hover, &:active, &:focus {
+    					background: darken(#eee, 3%);
+    				}
+			  	}
+		}
+	}
+}
