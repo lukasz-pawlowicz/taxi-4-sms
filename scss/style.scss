@@ -1,7 +1,9 @@
 @import "modules/_all";
 @import "partials/all";
 @import 'https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i&subset=latin-ext';
-
+@import 'https://fonts.googleapis.com/css?family=Bangers';
+@import 'https://fonts.googleapis.com/css?family=Monoton';
+@import 'https://fonts.googleapis.com/css?family=Montserrat:400,700';
 
 body{
 	margin: 0 auto;
@@ -116,5 +118,80 @@ body{
     }
     #logo {
     	padding-left: 10px;
+    }
+}
+
+
+@media only screen and (min-width : 321px) {
+}
+
+
+@media only screen and (min-width : 480px) {
+    #head-background {
+        h1.header-title{
+            font-size: 1.9em;
+            padding-top: 30%;
+        }
+        h3.header-text {
+            font-size: 0.9em;
+            margin-bottom: -155px;
+            margin-top: -10px;
+        }
+    }
+}
+
+
+@media only screen and (min-width : 640px) {
+    #head-background {
+        h1.header-title{
+            font-size: 3em;
+            padding-top: 26%;
+        }
+        h3.header-text {
+            font-size: 1.2em;
+            margin-bottom: -158px;
+            margin-top: -10px;
+        }
+    }
+}
+
+@media only screen and (min-width : 768px) {
+    #head-background {
+        h1.header-title{
+            font-size: 3.8em;
+            padding-top: 16%;
+        }
+        h3.header-text {
+            font-size: 1.8em;
+            margin-bottom: -150px;
+            margin-top: 20px;
+        }
+    }
+}
+
+@media only screen and (min-width : 1024px) {
+    #head-background {
+        h1.header-title{
+            font-size: 5em;
+            padding-top: 15%;
+        }
+        h3.header-text {
+            font-size: 2.5em;
+            margin-bottom: -177px;
+            margin-top: 20px;
+        }
+    }
+}
+
+@media only screen and (min-width : 1223px) {
+/* Styles */
+    #head-background {
+        h1.header-title{
+        font-size: 7em;
+        padding-top: 15%;
+        }
+        h3.header-text {
+            font-size: 3.5em;
+        }
     }
 }

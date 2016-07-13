@@ -1,0 +1,30 @@
+.section-heading {
+	h3 {
+		font-size: 1.5em;
+		font-family: 'Monoton', cursive;
+		text-align: center;
+	}
+	h1 {
+		font-size: 1.8em;
+		font-family: 'Montserrat', sans-serif;
+		text-align: center;
+		font-weight: 400;
+		margin-top: -15px;
+	}
+	.line {
+		width: 50px;
+		border-bottom: 2px solid $border-color;
+		margin-left: 47.5%;
+		margin-top: -10px;
+	}
+}
+.grid-header {
+	p {
+		font-family: 'Lato', cursive;
+		font-size: .9em;
+		line-height: 105%;
+		width: 80%;
+		margin: 0 auto;
+		text-align: center;
+	}
+}	
