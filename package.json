@@ -21,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/lukasz-pawlowicz/WAR_FRO_S_08_EXAM_SASS_RWD/issues"
   },
-  "homepage": "https://github.com/lukasz-pawlowicz/WAR_FRO_S_08_EXAM_SASS_RWD#readme"
+  "homepage": "https://github.com/lukasz-pawlowicz/WAR_FRO_S_08_EXAM_SASS_RWD#readme",
+  "dependencies": {
+    "smsapi": "^1.4.0"
+  }
 }
